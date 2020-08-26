@@ -1,0 +1,119 @@
+@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+/*@import url('http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	/*vertical-align: middle;*/
+    color: #686868;
+    font-family: 'Noto Sans KR', 'Malgun gothic', sans-serif;
+    /*font-family: 'Spoqa Han Sans', 'Sans-serif';/* 1 */
+
+    font-weight: 400;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+html{
+      font-family: 'Noto Sans KR',  'Malgun gothic', sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */   
+}
+body {
+	line-height: 1;
+    font-size: 14px;
+    letter-spacing: 0em;
+}
+span,strong,em,p,a{
+    color: inherit;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    color:#555;
+    text-decoration: none;
+}
+a:focus{
+    outline: none;
+}
+legend{
+    position: absolute;
+    top:-9999px;
+    width:0;
+    height: 0;
+}
+label,
+input[type="submit"],
+input[type="image"],
+input[type="reset"],
+button{
+    cursor: pointer;
+
+}
+input[type="radio"]:focus{
+    outline: none;
+}
+*{ 
+    box-sizing: border-box; -webkit-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; -moz-box-sizing:border-box;
+}
+
+
+.cf:after{content: ""; display: block; clear: both;}
+.fl{float: left}
+.fr{float: right}
+.mTn{margin-top:0 !important;}
+.mRn{margin-right:0 !important;}
+.mBn{margin-bottom:0 !important;}
+.mLn{margin-left:0 !important;}
+.bTn{border-top:none !important;}
+.bRn{border-right:none !important;}
+.bBn{border-bottom:none !important;}
+.bLn{border-left:none !important}
+.dpB{display: block !important;}
+.dpIb{display: inline-block !important;}
+.dpN{display: none !important;}
+.tc{text-align: center !important}
+.tl{text-align: left !important}
+.tr{text-align: right !important}
+.vt{vertical-align: top !important;}
+.position-r{position: relative;}
+.cb{clear: both;}
+.pRn{padding-right:0 !important}
+.pLn{padding-left:0 !important}
+.pTn{padding-top:0 !important}
+.pBn{padding-bottom:0 !important}
+.bgN{background: none !important;}
+.z-idx{z-index: 10}
+.ov{overflow: visible !important}
+.accessibility{position: absolute; top:-9999em; left:-9999em; width:0%; height: 0%; line-height: 0%; visibility: hidden;}
